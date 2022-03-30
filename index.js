@@ -13,7 +13,6 @@ server.get("/cursos/:index", (req, res) => {
 });
 
 server.get("/cursos/", (req, res) => {
-  const { index } = req.params;
 
   return res.json(cursos);
 });
@@ -35,4 +34,9 @@ server.delete("/cursos/:index", (req, res) => {
   return res.json(cursos);
 });
 
-server.listen(3010);
+// server.listen(3010);
+
+
+const port = process.env.PORT || 3000;
+
+server.listen(port, () => console.log(`Server running on ${port}, http://localhost:${port}`));
