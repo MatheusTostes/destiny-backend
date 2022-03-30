@@ -1,0 +1,22 @@
+{
+  "name": "destiny-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusTostes/destiny-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusTostes/destiny-backend/issues"
+  },
+  "homepage": "https://github.com/MatheusTostes/destiny-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
